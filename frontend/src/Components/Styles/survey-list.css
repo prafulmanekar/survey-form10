@@ -1,0 +1,129 @@
+.con{
+    position: absolute;
+    top:70px;
+    left: 150px;
+    height: 100vh;
+    width: 100vw;
+    z-index: -50;
+}
+.con-Default{
+    background-color: #FFFFFF;
+}
+.con-Dark{
+    background-color: #212121;
+}
+.con-pink{
+    background-color: #f9f1f8;
+}
+.survey-list-con{
+    position: absolute;
+    right:188px;
+}
+.sur{
+    font-size: 24px;
+    letter-spacing: .72px;
+    margin-right: 20px;
+}
+.sur-Default{
+    color:#081838
+}
+.sur-Dark{
+    color:#b1c4e9;
+}
+.sur-pink{
+    color:#5b1e50
+}
+.sur-con{
+    display: flex;
+    align-items: center;
+   
+justify-content: space-between;}
+
+.flex{
+    display: flex;
+    align-items: center;
+    width:max-content
+}
+.search{
+    color:lightgrey;
+}
+.search-input{
+    border: none;
+  border-bottom: 2px solid lightgray;
+  font-size: 18px;
+  background-color: inherit;
+}
+.search-input-Dark{
+    color: #b1c4e9;
+}
+
+.search-input:focus{
+    outline: none;
+}
+.header-con{
+    width:1100px;
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr .5fr .6fr 0.7fr 0.2fr;
+    justify-content: space-between;
+    height:65px;
+    padding-left: 72px;
+    padding-right: 72px;
+    align-content: center;
+}
+
+.header-con-Dark{
+    background-color: #5e6166;
+    color: #b1c4e9;
+    box-shadow: 0px 3px 6px #f2ebeb29
+}
+.header-con-Default{
+    background-color: #F8FAFF;
+    color:#081838;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.header-con-pink{
+    background-color: #f7c8ef;
+    color:#5b1e50;
+    box-shadow:0px 3px 6px #c05bad ;
+}
+.action{
+    margin-right: 0px;
+}
+.lists-div{
+    height:50px;
+    font-size: 20px;
+}
+.lists-div-Default{
+    color:#4D4A4A;
+    background-color: #FAFDFF;
+}
+.lists-div-Dark{
+    background-color: #a3a4a4;
+    color: #4D4A4A;
+}
+.lists-div-pink{
+    background-color: #f6e5f3;
+    color:#b455a2
+}
+.contain{
+    margin-top: 10px;
+}
+.edit-icon,
+.delete-icon{
+    transition: .3s all ease-in-out;
+    transform: scale(1);
+}
+
+.edit-icon:hover{
+    color:#278DF1;
+    transform: scale(1.2);
+}
+
+.delete-icon:hover{
+    color:rgb(251, 84, 84);
+    transform: scale(1.2);
+}
+
+.create-btn{
+    float: right;
+}

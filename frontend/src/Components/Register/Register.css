@@ -1,0 +1,153 @@
+.registercontainer {
+    background-image: linear-gradient(to bottom, #ffff, #fff ,#a2e1fc, #6ED4FF);
+        height: 630px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+}
+
+.registersignin button {
+    font-size: 18px;
+    width: 60%;
+    height: 38px;
+    border-radius: 20px;
+    margin-right: 130px;
+    font-weight: 500;
+}
+
+.registersignin {
+    font-weight: bold;
+    color: rgba(77, 77, 77, 0.909);
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.registersignin h1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.second, .third {
+    margin-top: 42px;
+    margin-right: 43px;
+    font-weight: 500;
+}
+
+.signin {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-right: 45px;
+}
+
+.smallpara {
+    margin-top: 80px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-right: 143px;
+}
+
+.signinbtn {
+    width: 158px;
+    border-radius: 15px;
+    border: none;
+    background-color: #278DF1;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    height: 3px;   
+}
+
+.register {
+    margin-top: 110px;
+    margin-right: 120px;
+    background-color: white;
+    height: 550px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 30px #00000029;
+    text-align: center;
+}
+
+.register h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.register p {
+    margin-top: 0;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.register form {
+    color: gray;
+}
+
+.register input{
+    border: 0;
+    width: 250px;
+    height: 25px;
+    margin-top: 35px;
+    color: black;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.rline {
+    display: flex;
+    height: 0;
+}
+
+.inline {
+    height: 1px;
+    background-color: gray;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.rinline {
+    height: 1px;
+    background-color: gray;
+    width: 230px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#btnregister {
+    margin-top: 10px;
+    width: 160px;
+    background-color: #278DF1;
+    color: white;
+    opacity: 1;
+    height: 37px;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#chckbox {
+    margin-top: 80px;
+    height: 15px;
+    width: 15px;
+    background-color: #278DF1;
+    color: #278DF1;
+    justify-items: center;
+}
+
+.chcktxt {
+    font-size: 10px;
+    color: #278DF1;
+    text-decoration: underline;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.inputs input {
+    font-size: 14px;
+}

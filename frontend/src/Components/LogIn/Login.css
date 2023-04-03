@@ -1,0 +1,122 @@
+.logincontainer {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 6%;
+    background-image: linear-gradient(to bottom, #ffff, #6ED4FF);
+    opacity: 1;
+    width: 100%;
+    height: 620px;
+}
+
+
+.login {
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 100px;
+    box-shadow:1px 1px black;
+    padding: 70px;
+    margin-right: 130px;
+}
+
+.loginheader {
+    margin-top: -60px;
+}
+
+.login input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    border-color: #ffff;
+}
+
+.login input:focus {
+    outline: none;
+}
+
+
+#firstlabel {
+    color: #808080;
+    margin-right: 260px;
+}
+
+#secondlabel {
+    color: #808080;
+    margin-right: 230px;
+}
+
+.login h1 {
+    font-size: 52px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.login p {
+    font-size: 18px;
+    color: #808080;
+    margin-top: -20px;
+}
+
+.loginregister {
+    margin-left: 220px; 
+    margin-top: 30px;
+}
+
+.loginregister h1{
+    font-size: 42px;
+    color: #5C5C5C;
+    margin-right: 230px;
+    font-weight: 600;
+}
+
+.loginregister p {
+    font-size: 20px;
+    padding-right: 230px;
+    color: #5C5C5C;
+}
+
+.loginregister .smallpara {
+    font-size: 13px;
+    color: #565657;
+}
+
+.loginregister button {
+    font-size: 18px;
+    margin-right: 435px;
+    width: 30%;
+    height: 6%;
+    border-radius: 25px;
+    background-color: #278DF1;
+    color: #ffff;
+    border-color: #278DF1;
+}
+.loginregister .second {
+    margin-right: 40px;
+}
+
+.loginregister .third {
+    margin-right: 45px;
+}
+
+#btn {
+    width: 40%;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #278DF1;
+    border-color: #278DF1;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.logininputs input {
+    margin: 5px;
+    padding: 5px;
+    border:none;
+    border-bottom: 2px solid #808080;
+}
+
+.logininputs {
+    margin-top: 10px;
+}

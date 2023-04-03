@@ -1,0 +1,116 @@
+.header {
+    border-bottom: 2px solid #C9C9C9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    margin: 50px;
+    width: 80%;
+    margin-left: 180px;
+}
+.createsurvey {
+    margin-top: -50px;
+}
+.header h1 {
+    margin-top: 90px;
+    width: 150%;
+    margin-left: 10px;
+}
+.header button {
+    float: right;
+    margin-bottom: 25px;
+}
+#btnfirst {
+    color: #278DF1;
+    background-color: #ffff;
+    border-color: #278DF1;
+    width: 120px;
+    height: 38px;
+    margin-top: 110px;
+    margin-left: 700px;
+}
+#btnfirst:hover {
+    background-color: #278DF1;
+    color: #ffff;
+}
+#lastbtn {
+    color: #FFFFFF;
+    background-color: #278DF1;
+    border-color: #FFFFFF;
+    width: 120px;
+    height: 38px;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+#lastbtn:hover {
+    background-color: rgb(76, 76, 181);
+}
+.inputcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 190px;
+}
+.inputcontainer input {
+    height: 30px;
+}
+.name label{
+    color: #2D2D2E;
+    font-size: 18px;
+    margin-right: 574px;
+}
+.name input {
+    width: 80%;
+}
+.description label{
+    color: #2D2D2E;
+    font-size: 18px;
+    margin-right: 529px;
+}
+.description input {
+    width: 80%;
+    height: 100px;
+}
+.type h3 {
+    color: #2D2D2E;
+    font-size: 20px;
+    margin-right: 500px;
+}
+.type select {
+    font-size: 16px;
+    margin-right: 540px;
+}
+.criteria label {
+    color: #2D2D2E;
+    font-size: 18px;
+    margin-right: 529px;
+}
+.criteria input {
+    width: 82%;
+    height: 100px;
+}
+.date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+.date input {
+    width: 50%;
+    align-content: center;
+}
+.start {
+    margin-right: 125px;
+}
+ .end {
+    margin-right: 128px;
+ }
+ .image {
+    font-size: 20px;
+    margin-top: 40px;
+ }
+ .image label {
+    margin-right: 500px;
+ }
+ .image input {
+    width: 100px;
+    margin-right: 520px;
+ }
